@@ -1,0 +1,61 @@
+pwd - print working dir
+cd change location
+mkdir make dir
+ls - list items in the dir
+touch creates a file
+rm removes file
+
+---
+
+local repo - repo stored in your comp
+remote repo- cloud based repo
+
+git add .  = add all modified files in  current dir
+git add "filename" - more specific add command
+
+git commit -m "" - saves changes that you made in the staging area to the repo. message describe changes made.
+
+git status - checks current status of your files/ files created or add .
+
+git log - shows the commits made
+
+git inti - inti repos
+
+==== from princess 
+
+Repository -- like a folder/container that stores files/folders related to a project. It keeps track of the changes made over time.
+	> Local Repository -- version of repository that is stored on your own computer
+	> Remote Repository -- version of repository that is stored on a server or cloud-based platform. 
+
+git init 
+	- initialize a folder
+
+git config --global user.name "<username">
+git config --global user.email "<email address">
+	- sets the user's username and email address
+
+git config --global user.name
+git config --global user.email
+	- to check if username and email are successfully connected
+
+git add .
+	- adds all modified files in your current directory to the staging area
+
+git add "filename"
+	- adds a specific file to the staging area
+
+git commit -m "message"
+	- saves the changes that you've made to the files in the staging area to the repository. The message describes what changes were made in this commit. 
+
+git status 
+	- displays the current status of your file/folder
+
+git log 
+	- displays all the commits that were made
+
+git log --oneline
+	- condensed version of git log
+
+
+
+
