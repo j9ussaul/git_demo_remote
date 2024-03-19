@@ -58,4 +58,10 @@ git log --oneline
 
 
 
+git push - upload to online ot github
+
+git pull-  retrieves remote repo to local repo
+
+git clone - make a copy remote repo in local machine
+
 
